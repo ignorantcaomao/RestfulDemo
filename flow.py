@@ -8,5 +8,5 @@ if __name__ == "__main__":
     hello.deploy(
         name="my-deployment",
         work_pool_name="my-managed-pool",
-        image="caomaodjs/prefect_demo:1.0.0",
+        image="caomaodjs/prefect_demo:2.0.0",
     )
