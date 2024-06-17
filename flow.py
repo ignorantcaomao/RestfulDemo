@@ -2,7 +2,7 @@ from prefect import flow
 
 @flow(log_prints=True)
 def hello():
-  print("Hell11o!")
+  print("hello!")
 
 if __name__ == "__main__":
     hello.deploy(
