@@ -6,7 +6,7 @@ build:
       id: build_image
       requires: prefect-docker>=0.3.1
       image_name: caomaodjs/prefect_demo
-      tag: my_image_tag
+      tag: latest
       dockerfile: auto
 
 push:
