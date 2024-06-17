@@ -21,7 +21,7 @@ deployments:
   - name: my-deployment
     entrypoint: flow.py:hello
     work_pool:
-      name: my-managed-pool
+      name: my-docker-pool
       work_queue_name: default
       job_variables:
         image: "{{ build-image.image }}"
